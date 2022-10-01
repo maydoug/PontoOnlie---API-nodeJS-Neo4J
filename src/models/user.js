@@ -30,12 +30,12 @@ const create = async (user) => {
 }
 
 const findByIdAndUpdate = async (id, user) => {
-    const result = await session.run(`MATCH (u:User {_id : '${id}',) SET name= '${user.name}', email= '${user.email}', password= '${user.password}'} return u`)
-    return result.records[0].properties
+    const result = await session.run(`MATCH (u:User {_id : '${id}'}) SET u.name= '${user.name}', u.email= '${user.email}', u.password= '${user.password}' return u`)
+    return result.records[0].get('u').properties
 }
 
 const findByIdAndDelete = async (id) => {
-    await session.run(`MATCH (u:User {_id : '${id}',}) DELETE  u`)
+    await session.run(`MATCH (u:User {_id : '${id}'}) DELETE  u`)
     return await findAll()
 }
 
