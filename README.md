@@ -18,13 +18,13 @@ Executes os passos acima (1º e 2º).
 
 e acesse a API pelo navegador em: localhost:3000
 ## ENDPOINT
-...
+```
 localhost:3000/user/
-...
+```
 ## ROTAS
-...
+```
 GET, POST, PUT e DELETE
-...
+```
 
 O maior desafio foi aprender sobre o banco de dados Neo4j e o seu
 funcionamento. 
