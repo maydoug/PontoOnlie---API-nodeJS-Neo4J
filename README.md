@@ -2,12 +2,24 @@
 
 API RestFul desenvolvida em nodeJS e Express e conexão com Banco de dados Neo4J
 
-## Project setup
+## Como íniciar o projeto:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rodar em um servidor local
 ```
 npm start
 ```
+
+### Desafio técnico:
+Após clonar o repositorio do github, 
+Executes os passos acima (1º e 2º).
+
+e acesse a API pelo navegador em: localhost:3000
+                   > ENDPOINT: localhost:3000/user/
+                   > ROTAS: GET, POST, PUT e DELETE
+
+O maior desafio foi aprender sobre o banco de dados Neo4j e o seu
+funcionamento. 
+Porém foi muito prazeroso. é um banco de dados bem funcional e dinamico. 
