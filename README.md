@@ -13,7 +13,7 @@ npm start
 ```
 
 ### Como visualizar o projeto:
-* OBS: Primeiro clone o repositorio da API e inicie o mesmo em um servidor local e depois o da Aplicação VueJS. *
+* OBS: Primeiro clone o repositorio da API e inicie o mesmo em um servidor local e depois o da Aplicação VueJS.
 
 Após clonar o repositorio do github, 
 Executes os passos acima (1º e 2º).
